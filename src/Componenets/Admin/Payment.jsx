@@ -292,7 +292,7 @@ export default function App() {
                 id="form3"
                 type="text"
                 size="lg"
-                value="jishmal k"
+              
               />
               <MDBRow className="my-4">
                 <MDBCol size="7">
