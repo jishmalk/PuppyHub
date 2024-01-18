@@ -1,0 +1,29 @@
+
+.main__section{
+    background-image: url(Componenets/images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.7);
+    height: 90vh;
+}
+.hero__content {
+    margin-top: 200px;
+    color: #fff;
+}
+.hero__content p{
+    font-weight: 300;
+    font-size: 1.2rem;
+    
+}
+.hero__subtitle{
+    margin-top: 30px;
+   
+}
+.buy__btn{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+    border:2px solid;
+
+}

@@ -1,0 +1,31 @@
+.ad-main-div{
+    /* background-color: #198754;  */
+    height: 100vh;
+
+}
+.admin-main{
+    background-color: #198754;
+}
+.ad-user-div,.ad-items-div{
+    margin-top: 180px;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+}
+.ad-col-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ad-user-div{
+    background-image: url("../Admin/users.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ad-items-div{
+    background-image: url("../Admin/items.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}

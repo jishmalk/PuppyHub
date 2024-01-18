@@ -1,0 +1,7 @@
+.card-div
+{
+    width: '18rem';
+    color: black;
+    border: 1px solid black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}

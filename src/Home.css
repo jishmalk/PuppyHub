@@ -1,0 +1,76 @@
+.divisions{
+    /* background-color: green; */
+    
+    /* margin-top: 100px; */
+    padding: 25px 0px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divisions p{
+    font-family:Arial, Helvetica, sans-serif;
+    /* color: darkorange; */
+    font-size: 15px;
+}
+#main-div-main{
+    /* margin-top:70px; */
+    background-image: url("./Componenets/images/avf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-color: rgba(254, 254, 254, 0.388);
+    border-radius: 50%;
+    margin-bottom: 8px;
+    margin-top: 100px;
+}
+#one{
+    background-image: url("../src/Componenets/images/hs.png");   
+}
+#two{
+    background-image: url("../src/Componenets/images/fd.png");
+}
+#three{
+    background-image: url("../src/Componenets/images/toyy.jpeg");
+}
+#four{
+    background-image: url("../src/Componenets/images/grm.jpeg");
+}
+#five{
+    background-image: url("../src/Componenets/images/bird.png");
+}
+#six{
+    background-image: url("../src/Componenets/images/medd.png");
+}
+#seven{
+    background-image: url("../src/Componenets/images/der.png");
+}
+#eight{
+    background-image: url("../src/Componenets/images/fish.png");
+}
+.img-div{
+    transition: transform 0.5s;
+}
+.img-div:hover{
+    transform: scale(1.04);
+}
+
+.list__names{
+    color: wheat;
+    background-color: rgba(75, 73, 73, 0.301);
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/* @media screen and (max-width:576) {
+    .images-carousal
+} */
